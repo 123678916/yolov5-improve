@@ -1,0 +1,7 @@
+#helmet.yaml
+train: /project/train/src_repo/dataset/train.txt
+val: /project/train/src_repo/dataset/val.txt
+# number of classes
+nc: 6
+# class names
+names: ['front_head', 'side_head', 'back_head', 'hand', 'mobile_phone', 'person_on_phone']
